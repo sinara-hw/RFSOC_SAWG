@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=RFSOC_SAWG_Mezzanine.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=RFSOC_SAWG_Mezzanine.SchDoc|Designator=U_Clock_fanout|SchDesignator=U_Clock_fanout|FileName=Clock_fanout.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Clock_fanout.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=RFSOC_SAWG_Mezzanine.SchDoc|Designator=U_ETH-PHY|SchDesignator=U_ETH-PHY|FileName=ETH-PHY.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=ETH-PHY.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=RFSOC_SAWG_Mezzanine.SchDoc|Designator=U_MicroUSB|SchDesignator=U_MicroUSB|FileName=MicroUSB.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MicroUSB.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
