@@ -32,7 +32,6 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -43,6 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Si549 LVDS
 
 [Preferences]
 PrefsVaultGUID=
@@ -712,7 +712,7 @@ UniqueID=A2D5C312-5976-4949-9DA9-6F2832D583FB
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=26
+VariationCount=45
 Variation1=Designator=R43|UniqueId=\GNHKTQUG\KDGDSGUR|Kind=1|AlternatePart= 
 Variation2=Designator=J24|UniqueId=\TCPEGTAL\MDYYLENS|Kind=1|AlternatePart= 
 Variation3=Designator=R39|UniqueId=\OIQTLDDY\THUPQFIA|Kind=1|AlternatePart= 
@@ -979,7 +979,30 @@ Variation23=Designator=R47|UniqueId=\OIQTLDDY\QYQOBBCQ|Kind=1|AlternatePart=
 Variation24=Designator=R48|UniqueId=\OIQTLDDY\UKILZCLD|Kind=1|AlternatePart= 
 Variation25=Designator=R152|UniqueId=\OIQTLDDY\MBIQLCXH|Kind=1|AlternatePart= 
 Variation26=Designator=R153|UniqueId=\OIQTLDDY\TPUGUJGC|Kind=1|AlternatePart= 
+Variation27=Designator=R232|UniqueId=\MOIVAGFM\FZRXCDGV|Kind=1|AlternatePart= 
+Variation28=Designator=R199|UniqueId=\FDCDCSRN\PYEQHHLQ|Kind=1|AlternatePart= 
+Variation29=Designator=R96A|UniqueId=\PEFLEPGN\WVCXBBVP|Kind=1|AlternatePart= 
+Variation30=Designator=R11A|UniqueId=\PEFLEPGN\IDLBBKLK|Kind=1|AlternatePart= 
+Variation31=Designator=R96B|UniqueId=\RDLWBIXU\WVCXBBVP|Kind=1|AlternatePart= 
+Variation32=Designator=R11B|UniqueId=\RDLWBIXU\IDLBBKLK|Kind=1|AlternatePart= 
+Variation33=Designator=R96C|UniqueId=\UXARMZEI\WVCXBBVP|Kind=1|AlternatePart= 
+Variation34=Designator=R11C|UniqueId=\UXARMZEI\IDLBBKLK|Kind=1|AlternatePart= 
+Variation35=Designator=R96D|UniqueId=\WQEREFDY\WVCXBBVP|Kind=1|AlternatePart= 
+Variation36=Designator=R11D|UniqueId=\WQEREFDY\IDLBBKLK|Kind=1|AlternatePart= 
+Variation37=Designator=R96E|UniqueId=\SMBQTAOL\WVCXBBVP|Kind=1|AlternatePart= 
+Variation38=Designator=R11E|UniqueId=\SMBQTAOL\IDLBBKLK|Kind=1|AlternatePart= 
+Variation39=Designator=R96F|UniqueId=\TXLDLWFU\WVCXBBVP|Kind=1|AlternatePart= 
+Variation40=Designator=R11F|UniqueId=\TXLDLWFU\IDLBBKLK|Kind=1|AlternatePart= 
+Variation41=Designator=R96G|UniqueId=\HJUGBGUS\WVCXBBVP|Kind=1|AlternatePart= 
+Variation42=Designator=R11G|UniqueId=\HJUGBGUS\IDLBBKLK|Kind=1|AlternatePart= 
+Variation43=Designator=R96H|UniqueId=\VDXEOINQ\WVCXBBVP|Kind=1|AlternatePart= 
+Variation44=Designator=R11H|UniqueId=\VDXEOINQ\IDLBBKLK|Kind=1|AlternatePart= 
+Variation45=Designator=R105|UniqueId=\JVFKWGAH|Kind=1|AlternatePart= 
 ParamVariationCount=120
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for RFSOC_SAWG\Design Rule Check - RFSOC_SAWG.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Version
@@ -1113,22 +1136,12 @@ OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1201,18 +1214,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1908,13 +1909,13 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
 Type124=1
 Type125=1
 Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
